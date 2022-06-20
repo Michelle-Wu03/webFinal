@@ -1,0 +1,97 @@
+body{
+    background-image: url(pots.gif);
+    background-color: slateblue;
+    background-position: 50% 10px;
+    background-repeat: no-repeat;
+}
+#left_list { font-weight: bold;
+    color: white;
+    border: 2px solid darkblue;
+    text-align: center;
+    width: 10em;
+    background-color: darkblue; }
+#right_list { 
+    position: absolute;
+    color: white;
+    left:77%;
+    font-weight: bold;
+    border: 2px solid darkblue;
+    text-align: center;
+    width: 10em;
+    background-color: darkblue; }
+nav{ border-radius: 10px;}
+nav ul { display: none;
+list-style: none;
+margin: 0;
+padding: 0; }
+nav ul li { border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: white;
+    width: 10em;
+}
+nav ul li img{height: 100px;
+    width: 110px;
+}
+nav ul li img:hover{
+    height:150px;
+    width:150px;
+    cursor: move; 
+}
+#div1 {
+    position: absolute;
+    left: 42%;
+    top:28%;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+#div2 {
+    position: absolute;
+    left: 52%;
+    top:28%;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+img{height: 100px;
+            width: 100px;}
+nav:hover{cursor: pointer; }
+#click_button{
+    position: absolute;
+    left:49%;
+    top:80%;
+    padding: 4px 10px;
+    border: outset;
+    background-color:mediumorchid;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#click_button:hover{
+    background-color: white;
+    border:2px solid blueviolet;
+    cursor: pointer;
+}
+.line2{
+    position: absolute;
+    left: 12%;
+    top: 3.5%;
+}
+#explaination{
+    position: fixed;
+    right:10px;
+    bottom:10px;
+}
+.modal-body img {
+    height: 500px;
+    width: 800px;
+}
+.modal-content{
+    height: 700px;
+    width: 850px;
+}
+.modal-body video{
+    height: 500px;
+    width: 800px;
+}
